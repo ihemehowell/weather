@@ -8,8 +8,10 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
-dist-ssr
+
+# Output directory for server-side rendering (SSR) builds
+# Ignore environment-specific configuration files
+*.local
 *.local
 
 # Editor directories and files
